@@ -57,6 +57,7 @@ export async function deleteNote(req, res) {
         res.status(200).json({ message: "Note deleted successfully" });
     }
     catch (error) {
+        console.error("Error in deleteNote controller", error)
         res.status(500).json({ message: "Error deleting note" });
     }
 }
