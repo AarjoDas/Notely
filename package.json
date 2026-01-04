@@ -1,0 +1,21 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back && npm install --prefix front && npm run build --prefix front",
+    "start": "npm run start --prefix back"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AarjoDas/Notely.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AarjoDas/Notely/issues"
+  },
+  "homepage": "https://github.com/AarjoDas/Notely#readme"
+}
